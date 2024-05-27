@@ -1,8 +1,9 @@
-# Application Made in JAVA during Computer Science degree and presented.
+# Application Made in JAVA during Computer Science degree and presented at college XII Meeting and II Extension Exhibition..
 
 ## Certificate
 
 ![Screenshot 2024-05-27 at 20-45-24 XII Encontro e II Mostra de Extensão - certificate - 2024-05-27T095854 785 pdf](https://github.com/LorenzoLocker12/Android-Mobile-App-for-Recycling-Awareness/assets/127125142/8a67fa8a-b24c-4115-9191-7f7a07300fb8)
+
 
 
 ## Download on GooglePlay: 
