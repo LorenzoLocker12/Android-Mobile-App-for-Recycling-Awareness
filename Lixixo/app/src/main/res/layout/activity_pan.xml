@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pan">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fund"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:elevation="6dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/panela"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-180dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="175dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="         Panelas"
+                android:textColor="#fff"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/panelas_realista"
+                android:layout_marginRight="100dp"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Como Reutilizar? "
+                android:textColor="#fff"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nExistem várias maneiras de reutilizar panelas antigas em vez de descartá-las. Aqui estão algumas ideias:"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n1- Transforme em vaso de plantas "
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nPanelas antigas podem ser transformadas em vasos de plantas criativos e únicos. Basta adicionar um pouco de solo e escolher suas plantas favoritas para adicionar um toque verde em sua casa \n"
+                android:textColor="#fff"
+                android:textSize="30sp"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/panela_planta"
+                android:layout_marginRight="100dp"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n2- Organizadores de armazenamento"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nUse as panelas como organizadores de armazenamento para guardar itens como utensílios de cozinha, ferramentas de jardinagem, materiais de artesanato ou até mesmo roupas íntimas\n"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/panela_guarda"
+                android:layout_marginRight="100dp"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n3- Decoração"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nAs panelas antigas podem ser usadas como decoração. Você pode pendurá-las na parede para dar um toque rústico à sua cozinha ou pintá-las para combinarem com a decoração de sua casa\n"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/panela_deco"
+                android:layout_marginRight="100dp"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

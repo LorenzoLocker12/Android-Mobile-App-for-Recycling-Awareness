@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fund"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:elevation="6dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/info"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-180dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="175dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="   Funcionamento\n"
+                android:textColor="#fff"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n1- Créditos "
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nAo clicar nos créditos é possivel visualizar os desenvolvedores, a universidade, o professor orientador e a professora colaboradora do aplicativo.\n"
+                android:textColor="#fff"
+                android:textSize="30sp"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/grp"
+                android:layout_marginRight="100dp"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n2-Recicláveis"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nAo clicar nesta opção será possível ver uma gama de lixeiras, onde é possivel ver a cor de cada lixeira reciclável e seus respectivos dejetos.\n"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/recycling"
+                android:layout_marginRight="100dp"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n2.1- Lixeiras Recicláveis"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nApós acessar a aba recicláveis será possivel clicar nas lixeiras, onde serão exibidos possíveis dejetos a serem reciclados ou reutilizados em suas respectivas lixeiras.\n"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/plas"
+                android:layout_marginRight="100dp"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n2.2- Dejetos"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nApós acessar a lixeira é possivel visualizar os dejetos, e ao clicar em um deles será mostrado metódos de reutilizar os mesmos, com excessão do lixo hospitalar, que não pode ser jamais reutilizado, apenas recilcado.\n"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/caixa"
+                android:layout_marginRight="100dp"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n3- Descarte"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nAo clicar nesta opção serão exibidos todos os ecopontos em Bauru SP\n"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/maps"
+                android:layout_marginRight="100dp"/>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Restos_de_alimentos">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fund"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:elevation="6dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banana"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-180dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="175dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="          Restos\n     de Alimentos"
+                android:textColor="#fff"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/alimento_realista"
+                android:layout_marginRight="100dp"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Como Reutilizar? "
+                android:textColor="#fff"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nExistem várias maneiras de reutilizar restos de alimentos, seja para reduzir o desperdício, economizar dinheiro ou criar novas refeições deliciosas. Algumas ideias incluem:"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n1- Compostagem "
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nOs restos de alimentos podem ser compostados para criar um fertilizante rico em nutrientes para jardins e plantas \n"
+                android:textColor="#fff"
+                android:textSize="30sp"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/alimento_compostagem"
+                android:layout_marginRight="100dp"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n2- Caldo de legumes"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSobras de vegetais, como cenouras, cebolas e alho, podem ser usadas para fazer um caldo de legumes caseiro\n"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/caldo_legume"
+                android:layout_marginRight="100dp"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n3- Sopa"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nSobras de carnes, vegetais e massas podem ser usadas para fazer uma sopa deliciosa\n"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/sopa"
+                android:layout_marginRight="100dp"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

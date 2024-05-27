@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Broken_glass">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fund"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:elevation="6dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/broken_glass"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-180dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="175dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="          Vidros\n       Quebrados"
+                android:textColor="#fff"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/vidro_quebrado"
+                android:layout_marginRight="100dp"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Como Reutilizar? "
+                android:textColor="#fff"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nReutilizar cacos de vidro pode ser um pouco mais desafiador do que reutilizar recipientes inteiros, pois é necessário lidar com peças quebradas e cortantes. No entanto, aqui estão algumas maneiras de reutilizar cacos de vidro de forma segura e criativa:"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n1- Artesanato "
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCacos de vidro podem ser usados para criar belos mosaicos em objetos como vasos, caixas, molduras e espelhos \n"
+                android:textColor="#fff"
+                android:textSize="30sp"/>
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/artesanato_vidro"
+                android:layout_marginRight="100dp"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n2- Decoração de jardim"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\nCacos de vidro coloridos podem ser usados para decorar o jardim ou vasos de plantas, criando um visual bonito e atraente\n"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/vaso_caco_vidro"
+                android:layout_marginRight="100dp"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

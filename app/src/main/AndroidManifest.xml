@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lixixo"
+        tools:targetApi="31">
+        <activity
+            android:name=".Info"
+            android:exported="false" />
+        <activity
+            android:name=".Credits"
+            android:exported="false" />
+        <activity
+            android:name=".Hosp_equip"
+            android:exported="false" />
+        <activity
+            android:name=".Hosp"
+            android:exported="false" />
+        <activity
+            android:name=".Glass"
+            android:exported="false" />
+        <activity
+            android:name=".Broken_glass"
+            android:exported="false" />
+        <activity
+            android:name=".Motor"
+            android:exported="false" />
+        <activity
+            android:name=".Aluminium_can"
+            android:exported="false" />
+        <activity
+            android:name=".Aluminium"
+            android:exported="false" />
+        <activity
+            android:name=".Pan"
+            android:exported="false" />
+        <activity
+            android:name=".Circuit_board"
+            android:exported="false" />
+        <activity
+            android:name=".Computer"
+            android:exported="false" />
+        <activity
+            android:name=".Restos_de_alimentos"
+            android:exported="false" />
+        <activity
+            android:name=".Restos_vegetais"
+            android:exported="false" />
+        <activity
+            android:name=".Chips_bag"
+            android:exported="false" />
+        <activity
+            android:name=".Plastic_bag"
+            android:exported="false" />
+        <activity
+            android:name=".Fork"
+            android:exported="false" />
+        <activity
+            android:name=".Bottles"
+            android:exported="false" />
+        <activity
+            android:name=".Livro"
+            android:exported="false" />
+        <activity
+            android:name=".Jornal"
+            android:exported="false" />
+        <activity
+            android:name=".Papel_pilha"
+            android:exported="false" />
+        <activity
+            android:name=".Papelao"
+            android:exported="false" />
+        <activity
+            android:name=".Eletro"
+            android:exported="false" />
+        <activity
+            android:name=".Org"
+            android:exported="false" />
+        <activity
+            android:name=".Papel"
+            android:exported="false" />
+        <activity
+            android:name=".Plas"
+            android:exported="false" />
+        <activity
+            android:name=".Vidro"
+            android:exported="false" />
+        <activity
+            android:name=".Met"
+            android:exported="false" />
+        <activity
+            android:name=".Map"
+            android:exported="false" />
+        <activity
+            android:name=".trashcans"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAFG86hM8xXMfoJG34FJU2ZBNV0xTK80Hg" />
+    </application>
+
+</manifest>
