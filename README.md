@@ -1,4 +1,4 @@
-# Application Made in JAVA during Computer Science degree and presented at a National Congress.
+# Application Made in JAVA during Computer Science degree and presented.
 
 
 ## Download on GooglePlay: 
