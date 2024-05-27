@@ -1,4 +1,4 @@
-# Application Made in JAVA during Computer Science degree and presented at college XII Meeting and II Extension Exhibition..
+# Application Made in JAVA during Computer Science degree and presented at college XII Meeting and II Extension Exhibition.
 
 ## Certificate
 
